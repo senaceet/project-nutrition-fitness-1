@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+    integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="imagenes\logo.png">
+  <title>Document</title>
+</head>
+
+<body style="background-color: white" f>
+  <nav class="navbar navbar-default navbar-expand-xl navbar-light"
+    style="background-color: #182C61; border-color:#182C61">
+    <div class="navbar-header d-flex col">
+      <a href="index.html"><img src="https://i.ibb.co/tCjQfy1/logo.png" width="100px" height="50px"></a>
+      <button type="button" data-target="#navbarCollapse" data-toggle="collapse"
+        class="navbar-toggle navbar-toggler ml-auto">
+        <span class="navbar-toggler-icon"></span>
+        <span
+          class="https://images.unsplash.com/photo-1551723454-7565a1f5b161?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"></span>
+        <span
+          class="https://images.unsplash.com/photo-1551723454-7565a1f5b161?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"></span>
+        <span
+          class="https://images.unsplash.com/photo-1551723454-7565a1f5b161?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60r"></span>
+      </button>
+    </div>
+
+    <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
+      <ul class="nav navbar-nav">
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-1" type="search" placeholder="buscar..." aria-label="Search"
+            name="busquedamodelos" list="listamodelos" size="60" maxlength="40">
+          <button class="btn btn-outline my-2 my-sm-0 btn-secondary" type="submit"><i class="fa fa-search"
+              aria-hidden="true" style="color: #182C61"></i></button>
+        </form>
+        <datalist id="listamodelos">
+
+          <option value="PRO T-F">
+
+          <option value="amino X  Bns">
+
+          <option value="Immunocal">
+
+          <option value="WHEY WLITE">
+
+        </datalist>
+      </ul>
+      <ul class="nav navbar-nav navbar-right ml-auto ">
+        <li class="nav-item dropdown" style="color: white;">
+          <a href="#" style="color: rgb(246, 246, 246)" data-toggle="dropdown" title="usuarios"
+            class="nav-link dropdown-toggle user-action ms-5 mr-3">
+            <font size="6"><i class="fa fa-users" aria-hidden="true" style="color: white"></font></i>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item"><i class="fa fa-user-o "></i> Registrarse</a></li>
+            <li><a href="#" class="dropdown-item"><i class="fa fa-sign-in" aria-hidden="true"></i>
+                Ingresar</a></li>
+
+          </ul>
+        </li>
+        <a href="#" class="nav-link ">
+          <font size="6"><i class="fa fa-bell-o ms-5 mr-3" style="color: white" title="Notificaciones"
+              data-toggle="tooltip" aria-hidden="true"></i></font>
+        </a>
+        <a href="#" class="nav-link ">
+          <font size="6"><i class="fa fa-cart-plus ms-5 mr-3" style="color: white" title="Carro de compras"
+              data-toggle="tooltip" aria-hidden="true"></i></font>
+        </a>
+      </ul>
+    </div>
+  </nav>
+  <br><br><br>
+  <center>
+    <h3>¿Como podemos ayudarte?</h3>
+  </center>
+  <br>
+  <center>
+    <div class="col-4">
+      <input type="text" class="form-control" placeholder="Buscar...">
+    </div>
+  </center>
+  <div class="container">
+
+
+    <div class="row">
+      <div class="col-lg-1">
+        <h1></h1>
+        <p></p>
+      </div>
+      <div class="col-lg-10">
+        <br><br> <br>
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive"
+                  aria-expanded="false" aria-controls="collapseTwo">
+                  <h2><i class="fa fa-lock" aria-hidden="true">  Concejos de seguridad</i>
+                  </h2>
+                </button>
+              </h2>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                <strong>1. </strong> Nunca reveles tu nombre de usuario o contraseña a terceros.
+                <p></p>
+                <strong>2. </strong>Piensa en una contraseña que no sea muy obvia y que tenga al menos seis (6) caracteres incluyendo números, símbolos y mayúsculas.
+                <p></p>
+                <strong>3. </strong>Por razones de seguridad, no recomendamos que la clave sea guardada en tu navegador de Internet.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix"
+                  aria-expanded="false" aria-controls="collapseThree">
+                  <h2><i class="fa fa-gavel" aria-hidden="true"> Información Legal y Privacidad</i>
+                  </h2>
+              </h2>
+              </button>
+              </h2>
+            </div>
+            <div id="collapseSix" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>
+                  <stron>1.</stron>ACEPTACIÓN
+                </p>
+                sociedad constituida bajo las leyes del Reino de los Países Bajos que explota la plataforma,
+                ofrece una serie de recursos en línea que incluye avisos clasificados, foros y diferentes servicios de
+                comunicación (en adelante, "los Servicios"), todos ellos sujetos a estas Condiciones de Uso
+                ("Condiciones" o "Términos"). La utilización de este sitio web (en adelante
+                ambos, el “sitio”), en cualquier forma, significa que el Usuario conviene aceptar y en quedar obligado
+                al cumplimiento de estas Condiciones. se reserva el derecho
+                de modificar dichos lineamientos en forma oportuna.
+                <p></p>
+                <br>
+                <stron>2.</stron>POLÍTICA DE CONTENIDO</br>
+                <p></p>
+                Usted entiende que NFB no controla, y no es responsable de todos los artículos, mensajes, comentarios,
+                archivos, las imágenes, las fotografías, los videos, sonidos y todo otro material ("Contenido")
+                anunciado o bien transmitido a través del Servicio u obtenido a partir de este, y que al utilizar el
+                sitio usted puede estar expuesto a Contenido ofensivo, indecente, impreciso, tramposo o bien objetable
+                por algún otro motivo. Sumado a ello, el sitio NFB y el Contenido que se encuentra disponible a través
+                del sitio pueden contener enlaces a otros sitios, sitios que no guardan relación alguna con NFB ni están
+                bajo su control.
+                <p></p>
+                <br>
+              <stron>2.</stron>CONDUCTA</br>
+              <p></p>
+                El Usuario acepta no anunciar, enviar por email ni de cualquier otra forma poner a disposición contenido
+                que:
+                sea contrario a la ley,
+                viole una patente, marca registrada, secreto comercial, derecho de autor u otro derecho de propiedad de
+                cualquier persona, o Contenido respecto del cual el Usuario no tiene derecho a poner a disposición del
+                público conforme a una disposición legal, una relación contractual o fiduciaria.
+                sea dañino, ilícito, amenazador, abusivo, acosador, difamatorio, contenidos para adultos, prostitución,
+                pornográfico, pedofilia, relacionado con juegos de azar, difamatorio, que invada la privacidad de otros
+                o que dañe a menores de cualquier forma;
+                acose, degrade, intimide o sea odioso respecto a un individuo o un grupo de individuos por su religión,
+                género, orientación sexual, raza, etnia, edad o discapacidad;
+                imite a otra persona o entidad, incluyendo un empleado, representante o agente de NFB, o que implique
+                una falsa declaración o que de cualquier manera tergiverse la relación del Usuario con una persona o con
+                una entidad;
+                incluya información personal o de identificación de otra persona, sin el consentimiento expreso de la
+                persona mencionada;
+                sea falso, engañoso, de una falsa apariencia, tramposo, engañe respecto de la información o que
+                constituya una forma de "atracción y luego se modifique lo ofrecido";
+                constituya o contiene "marketing afiliado", un "código de referencia a enlace", "mail basura", "spam",
+                "cadenas de cartas", "esquemas de pirámides" o publicidad comercial no solicitada.
+                constituya o bien contenga cualquier forma de publicidad o promoción si (1) se publica en áreas o en
+                categorías de los sitios de NFB que no están diseñados para dicha finalidad; o (2) enviado por email a
+                los usuarios de OLX que solicitaron no ser contactados con relación a otros servicios, productos o
+                intereses comerciales.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven"
+                  aria-expanded="false" aria-controls="collapseThree">
+                  <h2><i class="fa fa-globe" aria-hidden="true"> Ciudad y ubicacion</i>
+                  </h2>
+              </h2>
+              </button>
+              </h2>
+            </div>
+            <div id="collapseSeven" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                Nos encontramos ubicados en la ciudad de Bogotà, D.C en la Cra. 8 #17-19
+                <strong>Contacto:</strong>
+                <strong>Tel: 2811712 - Cel: 3214255784</strong>
+                <br>
+                <center><strong>
+                    <p style="color: #182C61">Mapa</p>
+                  </strong>
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.9425063760145!2d-74.07311543261164!3d4.604317684571829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a10813c37b%3A0xc89bab8da580eb4!2sCra.%208%20%2317-15%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1570023850961!5m2!1ses!2sco"
+                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-1">
+        <h1></h1>
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <br><br><br>
+
+  <footer class="page-footer font-small indigo " style="background-color: #182C61">
+    <div class="container text-center text-md-left ">
+      <div class="row">
+        <div class="col-xl-4 mx-auto">
+          <ul class="list-unstyled">
+            <p></p>
+            <h3 style="color: white">Informacion util</h3>
+            <li>
+              <a href="Contacto_ayuda.html">Contacto & ayuda </a></li>
+            <li>
+              <a href="#!">Consejos de seguridad </a></li>
+            <li>
+              <a href="#!">Terminos y condiciones</a></li>
+          </ul>
+        </div>
+        <div class="col-xl-4 mx-auto">
+          <ul class="list-unstyled">
+            <p></p>
+            <h3 style="color: white">Cerca de ti</h3>
+            <li>
+              <a href="#!">Ciudad ubicacion</a></li>
+            <li>
+              <a href="#!">Populares </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xl-4 mx-auto">
+          <ul class="list-unstyled">
+            <p></p>
+            <h3 style="color: white">Servicios</h3>
+            <li>
+              <a href="#!">Registrate</a> </li>
+            <li>
+              <a href="#!">Todos los anuncios</a>
+            </li>
+            <li>
+              <a href="#!">Medios de pago</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <script src="http://www.google.com/jsapi?key=CODIGO-PERSONAL"></script>
+</body>
+
+</html>

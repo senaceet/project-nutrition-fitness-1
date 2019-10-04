@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="imagenes\logo.png">
+    <link rel="stylesheet" type="text/scc" href="botones.css">
+    <title>Document</title>
+</head>
+
+<body style="background-color: white">
+    <nav class="navbar navbar-default navbar-expand-xl navbar-light" style="background-color: #182C61; border-color:#182C61">
+        <div class="navbar-header d-flex col">
+            <a href="index.html"><img src="https://i.ibb.co/tCjQfy1/logo.png" width="100px" height="50px"></a>
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle navbar-toggler ml-auto">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="https://images.unsplash.com/photo-1551723454-7565a1f5b161?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"></span>
+                    <span class="https://images.unsplash.com/photo-1551723454-7565a1f5b161?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"></span>
+                    <span class="https://images.unsplash.com/photo-1551723454-7565a1f5b161?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60r"></span>
+                </button>
+        </div>
+
+        <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
+            <ul class="nav navbar-nav">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-1" type="search" placeholder="buscar..." aria-label="Search" name="busquedamodelos" list="listamodelos" size="60" maxlength="40">
+                    <button class="btn btn-outline my-2 my-sm-0 btn-secondary" type="submit"><i
+                                class="fa fa-search" aria-hidden="true" style="color: #182C61"></i></button>
+                </form>
+                <datalist id="listamodelos">
+    
+                        <option value="PRO T-F">
+    
+                        <option value="amino X  Bns">
+    
+                        <option value="Immunocal">
+    
+                        <option value="WHEY WLITE">
+    
+                    </datalist>
+            </ul>
+            <ul class="nav navbar-nav navbar-right ml-auto ">
+                <li class="nav-item dropdown" style="color: white;">
+                    <a href="#" style="color: rgb(246, 246, 246)" data-toggle="dropdown" title="usuarios" class="nav-link dropdown-toggle user-action ms-5 mr-3">
+                        <font size="6"><i class="fa fa-users" aria-hidden="true" style="color: white"></font></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="registrarse.html" class="dropdown-item"><i class="fa fa-user-o "></i> Registrarse</a></li>
+                        <li><a href="inicio sesion.html" class="dropdown-item"><i class="fa fa-sign-in" aria-hidden="true"></i>
+                                    Ingresar</a></li>
+
+                    </ul>
+                </li>
+                <a href="#" class="nav-link ">
+                    <font size="6"><i class="fa fa-bell-o ms-5 mr-3" style="color: white" title="Notificaciones" data-toggle="tooltip" aria-hidden="true"></i></font>
+                </a>
+                <a href="#" class="nav-link ">
+                    <font size="6"><i class="fa fa-cart-plus ms-5 mr-3" style="color: white" title="Carro de compras" data-toggle="tooltip" aria-hidden="true"></i></font>
+                </a>
+            </ul>
+        </div>
+    </nav>
+    <div class="row no-gutters">
+        <div class="col-md-3">
+
+            <ul class="list-group list-group-flush p-2 pt-2">
+                <li class="list-group-item " style="background-color:#182C61; color: white"><i class="fa fa-list" aria-hidden="true"></i> Categorias
+                </li>
+                <li class="list-group-item"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    <a href="MA-apoyo_colesterol.html" style="color: black">Apoyo para el colesterol</a></li>
+                <li class="list-group-item"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    <a href="MA-nutrientes_ojos.html" style="color: black">Nurientes para los ojos</a></li>
+                <li class="list-group-item"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    <a href="MA-Apoyo_manejo_peso.html" style="color: black">Apoyo para el manejo del peso</a></li>
+                <li class="list-group-item"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    <a href="MA-Antioxidantes.html" style="color: black">Antioxidantes</a></li>
+                <li class="list-group-item"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    <strong>Complementos herbales</strong></li>
+            </ul>
+
+
+        </div>
+        <div class="col-md-9">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imagenes/ma_logo3.jpg" class="d-block w-100" height="450px" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/ma_logo4.jpg" class="d-block w-100" height="450px" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/ma_logo5.jpg" class="d-block w-100" height="450px" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <div class="container"><article class="card card-product" style="max-width: 1200px ;"></article></div>
+    <br>
+    <center>
+        <h1>Complementos herbales</h1>
+    </center>
+    <br>
+
+    <div class="container">
+        <article class="card card-product" style="max-width: 1200px ;"></article>
+        <div class="card-body" style="background-color: white">
+            <div class="row">
+                <aside class="col-sm-3">
+                    <center>
+                        <div class="img-wrap"><img src="imagenes\ma5.jpg" height="200"></div>
+                    </center>
+                </aside>
+                <article class="col-sm-6">
+                    ​
+                    <h4 class="title"> Fibra de acacia en polvo
+                    </h4>
+                    <div class="rating-wrap">
+                        <ul class="rating-stars">
+                            <li style="width:100%" class="stars-active">
+                                <font color="#182C61"><i class="fa fa-star"></i> <i class="fa fa-star"></i></font>
+                                <font color="#182C61"><i class="fa fa-star"></i> <i class="fa fa-star"></i></font>
+                                <font color="#182C61"><i class="fa fa-star"></i></font>
+                            </li>
+                            ​
+                        </ul>
+                        <div class="label-rating">Bogotá D.C.</div>
+                        <div class="label-rating">Medellin </div>
+                    </div>
+                    <p> 12 oz (340 g) Botella/Frasco En el caso de adultos, mezcle cada día 1 cacito (6,5 g) con agua o zumo.
+                    </p>
+                    ​ ​
+                </article>
+                <aside class="col-sm-3 border-left">
+                    <div class="action-wrap">
+                        <div class="price-wrap h4">
+                            <span class="price"> $ 30.900 </span>
+                            <del class="price-old"> $50.000</del>
+                        </div>
+                        <p class="text-success">Hasta 12x $ 15.665 sin interés</p>
+                        <br>
+                        <p>
+                            <a href="inicio sesion.html" class="btn" style="background-color: #182C61; color:white"> Carro compra </a>
+                            <a href="#" class="btn btn-secondary" data-target="#produk1" data-toggle="modal"> Detalles</a>
+                        </p>
+                        <a href="#"><font color="#182C61"><i class="fa fa-heart"></i> Add to wishlist</a></font>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+    </article>
+    <div class="modal fade" id="produk1" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Detalles del Producto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="imagenes\ma5.jpg" height="450px" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <table class="table table-borderless">
+                                <tr>
+                                    <th>Nombre del Producto</th>
+                                    <td> Fibra de acacia en polvo </td>
+                                </tr>
+                                <tr>
+                                    <th>Tipo</th>
+                                    <td>Medicina alternativa</td>
+                                </tr>
+                                <tr>
+                                    <th>Uso</th>
+                                    <td> En el caso de adultos, mezcle cada día 1 cacito (6,5 g) con agua o zumo.</td>
+                                </tr>
+                                <tr>
+                                    <th>codigo producto</th>
+                                    <td>Nº 510 Rou</td>
+                                </tr>
+                                <tr>
+                                    <th>Valoración del Producto</th>
+                                    <td>
+                                            <i class="fa fa-star" aria-hidden="true" style="color: #182C61"></i>
+                                            <i class="fa fa-star" aria-hidden="true" style="color: #182C61"></i>
+                                            <i class="fa fa-star " aria-hidden="true" style="color: #182C61"></i>
+                                            <i class="fa fa-star-half-o " aria-hidden="true" style="color: #182C61"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true" style="color: #182C61"></i><br>
+                                        </td>
+                                </tr>
+                                <tr>
+                                    <th>Stock de Producto</th>
+                                    <td>153 Pcs</td>
+                                </tr>
+                                <tr>
+                                    <th>Precio</th>
+                                    <td>$30.900</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">VOLVER</button>
+                    <a href="inicio sesion.html"><button type="button" class="btn btn-primary">COMPRAR</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="container">
+        <article class="card card-product" style="max-width: 1200px ;"></article>
+        <div class="card-body" style="background-color: white">
+            <div class="row">
+                <aside class="col-sm-3">
+                    <center>
+                        <div class="img-wrap"><img src="imagenes\ma21.jpg" height="200"></div>
+                    </center>
+                </aside>
+                <article class="col-sm-6">
+                    ​
+                    <h4 class="title"> Extracto de paniculata andrographis </h4>
+                    <div class="rating-wrap">
+                        <ul class="rating-stars">
+                            <li style="width:100%" class="stars-active">
+                                <font color="#182C61"><i class="fa fa-star"></i> <i class="fa fa-star"></i></font>
+                                <font color="#182C61"><i class="fa fa-star"></i> <i class="fa fa-star"></i></font>
+                                <font color="#182C61"><i class="fa fa-star"></i></font>
+                            </li>
+                            ​
+                        </ul>
+                        <div class="label-rating">Bogotá D.C.</div>
+                        <div class="label-rating">Medellin </div>
+                    </div>
+                    <p> 400 mg, 60 En el caso de adultos, tome 1 cápsula de liberación rápida de 2 a 3 veces al día, preferentemente en las comidas.</p>
+                    ​ ​
+                </article>
+                <aside class="col-sm-3 border-left">
+                    <div class="action-wrap">
+                        <div class="price-wrap h4">
+                            <span class="price"> $ 15.450 </span>
+                            <del class="price-old"> $20.000</del>
+                        </div>
+                        <p class="text-success">Hasta 12x $ 15.665 sin interés</p>
+                        <br>
+                        <p>
+                            <a href="inicio sesion.html" class="btn" style="background-color: #182C61; color:white"> Carro compra </a>
+                            <a href="#" class="btn btn-secondary" data-target="#produk2" data-toggle="modal"> Detalles</a>
+                        </p>
+                        <a href="#"><font color="#182C61"><i class="fa fa-heart"></i> Add to wishlist</a></font>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+    </article>
+    <div class="modal fade" id="produk2" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Detalles del Producto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <center><img src="imagenes\ma21.jpg" height="450px" alt=""></center>
+                        </div>
+                        <div class="col-md-6">
+                            <table class="table table-borderless">
+                                <tr>
+                                    <th>Nombre del Producto</th>
+                                    <td>Extracto de paniculata andrographis </td>
+                                </tr>
+                                <tr>
+                                    <th>Tipo</th>
+                                    <td>Medicina alternativa</td>
+                                </tr>
+                                <tr>
+                                    <th>Uso</th>
+                                    <td> En el caso de adultos, tome 1 cápsula de liberación rápida de 2 a 3 veces al día, preferentemente en las comidas.</td>
+                                </tr>
+                                <tr>
+                                    <th>codigo producto</th>
+                                    <td>Nº 520 Rou</td>
+                                </tr>
+                                <tr>
+                                    <th>Valoración del Producto</th>
+                                    <td>
+                                            <i class="fa fa-star" aria-hidden="true" style="color: #182C61"></i>
+                                            <i class="fa fa-star" aria-hidden="true" style="color: #182C61"></i>
+                                            <i class="fa fa-star " aria-hidden="true" style="color: #182C61"></i>
+                                            <i class="fa fa-star-half-o " aria-hidden="true" style="color: #182C61"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true" style="color: #182C61"></i><br>
+                                        </td>
+                                </tr>
+                                <tr>
+                                    <th>Stock de Producto</th>
+                                    <td>111 Pcs</td>
+                                </tr>
+                                <tr>
+                                    <th>Precio</th>
+                                    <td>$15.450</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">VOLVER</button>
+                    <a href="inicio sesion.html"><button type="button" class="btn btn-primary">COMPRAR</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+    <div class="container">
+        <article class="card card-product" style="max-width: 1200px ;"></article>
+        <div class="card-body" style="background-color: white">
+            <div class="row">
+                <aside class="col-sm-3">
+                    <center>
+                        <div class="img-wrap"><img src="imagenes\ma22.jpg" height="200"></div>
+                    </center>
+                </aside>
+                <article class="col-sm-6">
+                    ​
+                    <h4 class="title"> Raíz de astrágalo </h4>
+                    <div class="rating-wrap">
+                        <ul class="rating-stars">
+                            <li style="width:100%" class="stars-active">
+                                <font color="#182C61"><i class="fa fa-star"></i> <i class="fa fa-star"></i></font>
+                                <font color="#182C61"><i class="fa fa-star"></i> <i class="fa fa-star"></i></font>
+                                <font color="#182C61"><i class="fa fa-star"></i></font>
+                            </li>
+                            ​
+                        </ul>
+                        <div class="label-rating">Bogotá D.C.</div>
+                        <div class="label-rating">Medellin </div>
+                    </div>
+                    <p> 1200 mg, 90 Cápsulas En el caso de adultos, tome 1 cápsula de liberación rápida de 1 a 2 veces al día, preferentemente en las comidas.</p>
+                    ​ ​
+                </article>
+                <aside class="col-sm-3 border-left">
+                    <div class="action-wrap">
+                        <div class="price-wrap h4">
+                            <span class="price"> $ 22.850 </span>
+                            <del class="price-old"> $ 30.000</del>
+                        </div>
+                        <p class="text-success">Hasta 12x $ 15.665 sin interés</p>
+                        <br>
+                        <p>
+                            <a href="inicio sesion.html" class="btn" style="background-color: #182C61; color:white"> Carro compra </a>
+                            <a href="#" class="btn btn-secondary" data-target="#produk3" data-toggle="modal"> Detalles</a>
+                        </p>
+                        <a href="#"><font color="#182C61"><i class="fa fa-heart"></i> Add to wishlist</a></font>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+    </article>
+    <div class="modal fade" id="produk3" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Detalles del Producto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <center><img src="imagenes\ma22.jpg" height="450px" alt=""></center>
+                        </div>
+                        <div class="col-md-6">
+                            <table class="table table-borderless">
+                                <tr>
+                                    <th>Nombre del Producto</th>
+                                    <td>Raíz de astrágalo</td>
+                                </tr>
+                                <tr>
+                                    <th>Tipo</th>
+                                    <td>Medicina alternativa</td>
+                                </tr>
+                                <tr>
+                                    <th>Uso</th>
+                                    <td> En el caso de adultos, tome 1 cápsula de liberación rápida de 1 a 2 veces al día, preferentemente en las comidas. </td>
+                                </tr>
+                                <tr>
+                                    <th>codigo producto</th>
+                                    <td>Nº 530 Rou</td>
+                                </tr>
+                                <tr>
+                                    <th>Valoración del Producto</th>
+                                    <td>
+                                            <i class="fa fa-star" aria-hidden="true" style="color: #182C61"></i>
+                                            <i class="fa fa-star" aria-hidden="true" style="color: #182C61"></i>
+                                            <i class="fa fa-star " aria-hidden="true" style="color: #182C61"></i>
+                                            <i class="fa fa-star-half-o " aria-hidden="true" style="color: #182C61"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true" style="color: #182C61"></i><br>
+                                        </td>
+                                </tr>
+                                <tr>
+                                    <th>Stock de Producto</th>
+                                    <td>18 Pcs</td>
+                                </tr>
+                                <tr>
+                                    <th>Precio</th>
+                                    <td>$22.850</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">VOLVER</button>
+                    <a href="inicio sesion.html"><button type="button" class="btn btn-primary">COMPRAR</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="container">
+        <article class="card card-product" style="max-width: 1200px ;"></article>
+        <div class="card-body" style="background-color: white">
+            <div class="row">
+                <aside class="col-sm-3">
+                    <center>
+                        <div class="img-wrap"><img src="imagenes\ma23.jpg" height="200"></div>
+                    </center>
+                </aside>
+                <article class="col-sm-6">
+                    ​
+                    <h4 class="title"> Jugo de raíz de betarraga (Orgánico) </h4>
+                    <div class="rating-wrap">
+                        <ul class="rating-stars">
+                            <li style="width:100%" class="stars-active">
+                                <font color="#182C61"><i class="fa fa-star"></i> <i class="fa fa-star"></i></font>
+                                <font color="#182C61"><i class="fa fa-star"></i> <i class="fa fa-star"></i></font>
+                                <font color="#182C61"><i class="fa fa-star"></i></font>
+                            </li>
+                            ​
+                        </ul>
+                        <div class="label-rating">Bogotá D.C.</div>
+                        <div class="label-rating">Medellin </div>
+                    </div>
+                    <p> 32 fl oz (946 mL) Botella/Frasco Tomar 2 cucharadas soperas (29 ml) al día con el estómago vacío, preferiblemente por la mañana, o bien según le recomiende su profesional de la salud. </p>
+                    ​ ​
+                </article>
+                <aside class="col-sm-3 border-left">
+                    <div class="action-wrap">
+                        <div class="price-wrap h4">
+                            <span class="price"> $ 30.900 </span>
+                            <del class="price-old"> $40.000</del>
+                        </div>
+                        <p class="text-success">Hasta 12x $ 15.665 sin interés</p>
+                        <br>
+                        <p>
+                            <a href="inicio sesion.html" class="btn" style="background-color: #182C61; color:white"> Carro compra </a>
+                            <a href="#" class="btn btn-secondary" data-target="#produk4" data-toggle="modal"> Detalles</a>
+                        </p>
+                        <a href="#"><font color="#182C61"><i class="fa fa-heart"></i> Add to wishlist</a></font>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+    </article>
+    <div class="modal fade" id="produk4" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Detalles del Producto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <center><img src="imagenes\ma23.jpg" height="400px" width="300px" alt=""></center>
+                        </div>
+                        <div class="col-md-6">
+                            <table class="table table-borderless">
+                                <tr>
+                                    <th>Nombre del Producto</th>
+                                    <td> Jugo de raíz de betarraga (Orgánico)</td>
+                                </tr>
+                                <tr>
+                                    <th>Tipo</th>
+                                    <td>Medicina alternativa</td>
+                                </tr>
+                                <tr>
+                                    <th>Uso</th>
+                                    <td> Tomar 2 cucharadas soperas (29 ml) al día con el estómago vacío, preferiblemente por la mañana, o bien según le recomiende su profesional de la salud. </td>
+                                </tr>
+                                <tr>
+                                    <th>codigo producto</th>
+                                    <td>Nº 540 Rou</td>
+                                </tr>
+                                <tr>
+                                    <th>Valoración del Producto</th>
+                                    <td>
+                                            <i class="fa fa-star" aria-hidden="true" style="color: #182C61"></i>
+                                            <i class="fa fa-star" aria-hidden="true" style="color: #182C61"></i>
+                                            <i class="fa fa-star " aria-hidden="true" style="color: #182C61"></i>
+                                            <i class="fa fa-star-half-o " aria-hidden="true" style="color: #182C61"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true" style="color: #182C61"></i><br>
+                                        </td>
+                                </tr>
+                                <tr>
+                                    <th>Stock de Producto</th>
+                                    <td>200 Pcs</td>
+                                </tr>
+                                <tr>
+                                    <th>Precio</th>
+                                    <td>$30.900</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">VOLVER</button>
+                   <a href="inicio sesion.html"><button type="button" class="btn btn-primary">COMPRAR</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="container">
+        <article class="card card-product" style="max-width: 1200px ;"></article>
+        <div class="card-body" style="background-color: white">
+            <div class="row">
+                <aside class="col-sm-3">
+                    <center>
+                        <div class="img-wrap"><img src="imagenes\ma24.jpg" height="200"></div>
+                    </center>
+                </aside>
+                <article class="col-sm-6">
+                    <h4 class="title"> Extracto líquido de amapola de California </h4>
+                    <div class="rating-wrap">
+                        <div class="label-rating">Bogotá D.C.</div>
+                        <div class="label-rating">Medellin </div>
+                    </div>
+                    <p>1 fl oz (30 mL) Frasco Como suplemento de hierbas, tome de medio gotero a dos goteros llenos 2 o 3 veces al día con zumo o agua antes de las comidas o de acostarse.</p>
+                </article>
+                <aside class="col-sm-3 border-left">
+                    <div class="action-wrap">
+                        <p>
+                            <a href="inicio sesion.html" class="btn" style="background-color: #182C61; color:white"> Carro compra </a>
+                            <a href="#" class="btn btn-secondary" data-target="#produk5" data-toggle="modal"> Detalles</a>
+                        </p>
+                        <a href="#"><font color="#182C61"><i class="fa fa-heart"></i> Add to wishlist</a></font>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+    </article>
+    <div class="modal fade" id="produk5" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Detalles del Producto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <center><img src="imagenes\ma24.jpg" height="450px" alt=""></center>
+                        </div>
+                        <div class="col-md-6">
+                            <table class="table table-borderless">
+                                <tr>
+                                    <th>Nombre del Producto</th>
+                                    <td>Extracto líquido de amapola de California </td>
+                                </tr>
+                                <tr>
+                                    <th>Tipo</th>
+                                    <td>Medicina alternativa</td>
+                                </tr>
+                                <tr>
+                                    <th>uso</th>
+                                    <td> Como suplemento de hierbas, tome de medio gotero a dos goteros llenos 2 o 3 veces al día con zumo o agua antes de las comidas o de acostarse. </td>
+                                </tr>
+                                <tr>
+                                    <th>codigo producto</th>
+                                    <td>Nº 550 Rou</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">VOLVER</button>
+                <a href="inicio sesion.html"><button type="button" class="btn btn-primary">COMPRAR</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <BR>
+        <nav class="  navbar-expand-xl " style="background-color: #dcdde1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <br>
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="item carousel-item active">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon ml-2"><i class="fa fa-heart-o"></i></span>
+                                                    <center>
+                                                        <div class="img-box">
+                                                            <img src="imagenes/ma1.jpg" height="125px" width="80px" alt="">
+                                                        </div>
+                                                    </center>
+                                                    <div class="thumb-content">
+                                                        <h4 class=" text-center">Aceite de linaza</h4>
+                                                        <p class="item-price mr-4 text-right"><strike>$400.00</strike>
+                                                            <b>$369.00</b> <a href="inicio sesion.html" class="btn ml-5"
+                                                                style="background-color:#182C61"><i class="fa fa-cart-plus"
+                                                                    aria-hidden="true" style="color: white"></i> </a></p>
+    
+                                                        </a>
+                                                    </div>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon ml-2"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <center><img src="imagenes/ma2.jpg" height="125px" width="80px"
+                                                                alt=""></center>
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                        <h4 class="text-center">Astaxanthin</h4>
+                                                        <p class="item-price mr-4 text-md-right"><strike>$25.00</strike>
+                                                            <b>$23.99</b> <a href="inicio sesion.html" class="btn ml-5"
+                                                                style="background-color:#182C61"><i class="fa fa-cart-plus"
+                                                                    aria-hidden="true" style="color: white"></i> </a></p>
+                                                    </div>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon ml-2"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <center><img src="imagenes/ma3.jpg" height="125px" width="80px"
+                                                                alt=""></center>
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                        <h4 class="text-md-center">Ultimate Carb Control</h4>
+                                                        <p class="item-price mr-4 text-md-right"><strike>$899.00</strike>
+                                                            <b>$649.00</b><a href="inicio sesion.html" class="btn ml-5"
+                                                                style="background-color:#182C61"><i class="fa fa-cart-plus"
+                                                                    aria-hidden="true" style="color: white"></i> </a></p>
+                                                    </div>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon ml-2"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <center><img src="imagenes/ma4.jpg" height="125px" width="80px"
+                                                                alt=""></center>
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                        <h4 class="text-md-center">Antioxidantes Ultra</h4>
+                                                        <p class="item-price mr-4 text-md-right"><strike>$315.00</strike>
+                                                            <b>$250.00</b><a href="inicio sesion.html" class="btn ml-5"
+                                                                style="background-color:#182C61"><i class="fa fa-cart-plus"
+                                                                    aria-hidden="true" style="color: white"></i> </a></p>
+                                                    </div>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item carousel-item">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon ml-2"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <center> <img src="imagenes/ma5.jpg" height="125px" width="80px"
+                                                                alt=""></center>
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                        <h4 class="text-md-center">Fibra de acacia</h4>
+                                                        <p class="item-price mr-4 text-md-right "><strike>$289.00</strike>
+                                                            <span>$269.00</span><a href="inicio sesion.html"
+                                                                class="btn ml-5" style="background-color:#182C61"><i
+                                                                    class="fa fa-cart-plus" aria-hidden="true"
+                                                                    style="color: white"></i> </a></p>
+                                                    </div>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon ml-2"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <center><img src="imagenes/ma6.jpg" height="125px" width="80px"
+                                                                alt=""></center>
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                        <h4 class="text-md-center">Semillas de linaza </h4>
+                                                        <p class="item-price mr-4 text-md-right"><strike>$1099.00</strike>
+                                                            <span>$869.00</span><a href="inicio sesion.html"
+                                                                class="btn ml-5" style="background-color:#182C61"><i
+                                                                    class="fa fa-cart-plus" aria-hidden="true"
+                                                                    style="color: white"></i> </a></p>
+                                                    </div>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon ml-2"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <center> <img src="imagenes/ma7.jpg" height="125px" width="80px"
+                                                                alt=""></center>
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                        <h4 class="text-md-center">Zeaxantina</h4>
+                                                        <p class="item-price mr-4 text-md-right"><strike>$109.00</strike>
+                                                            <span>$99.00</span><a href="inicio sesion.html" class="btn ml-5"
+                                                                style="background-color:#182C61"><i class="fa fa-cart-plus"
+                                                                    aria-hidden="true" style="color: white"></i> </a></p>
+                                                    </div>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon ml-2"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <center><img src="imagenes/ma8.jpg" height="125px" width="80px"
+                                                                alt=""></center>
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                        <h4 class="text-center">Fibra de raíz de konja</h4>
+                                                        <p class="item-price mr-4 text-md-right"><strike>$599.00</strike>
+                                                            <span>$569.00</span><a href="inicio sesion.html"
+                                                                class="btn ml-5" style="background-color:#182C61"><i
+                                                                    class="fa fa-cart-plus" aria-hidden="true"
+                                                                    style="color: white"></i> </a></p>
+                                                    </div>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item carousel-item">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon ml-2"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <center><img src="imagenes/ma9.jpg" height="125px" width="80px"
+                                                                alt=""></center>
+                                                    </div>
+                                                    <center>
+                                                        <div class="thumb-content">
+                                                            <h4>Multi omega</h4>
+                                                            <p class="item-price mr-4 text-md-right">
+                                                                <strike>$599.00</strike><span>$569.00</span><a
+                                                                    href="inicio sesion.html" class="btn ml-5"
+                                                                    style="background-color:#182C61"><i
+                                                                        class="fa fa-cart-plus" aria-hidden="true"
+                                                                        style="color: white"></i> </a></p>
+                                                            </a>
+                                                        </div>
+                                                    </center>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon"><i class="fa fa-heart-o ml-2"></i></span>
+                                                    <div class="img-box">
+                                                        <center><img src="imagenes/ma10.jpg" height="125px" width="80px"
+                                                                alt=""></center>
+                                                    </div>
+                                                    <center>
+                                                        <div class="thumb-content">
+                                                            <h4>Aceite de semillas</h4>
+                                                            <p class="item-price"><strike>$315.00</strike>
+                                                                <span>$250.00</span><a href="inicio sesion.html"
+                                                                    class="btn ml-5" style="background-color:#182C61"><i
+                                                                        class="fa fa-cart-plus" aria-hidden="true"
+                                                                        style="color: white"></i> </a></p>
+                                                            </a>
+                                                        </div>
+                                                    </center>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon ml-2"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <center><img src="imagenes/ma24.jpg" height="125px" width="80px"
+                                                                alt=""></center>
+                                                    </div>
+                                                    <center>
+                                                        <div class="thumb-content">
+                                                            <h6>Extracto de amapola de California</h6>
+                                                            <p></p>
+                                                            <a href="#" class="btn btn-danger">!PROXIMAMENTE¡</a>
+                                                        </div>
+                                                    </center>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon ml-2"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <center><img src="imagenes/ma7.jpg" height="125px" width="80px"
+                                                                alt=""></center>
+                                                    </div>
+                                                    <center>
+                                                        <div class="thumb-content">
+                                                            <h4>Zeaxantina</h4>
+                                                            <a href="#" class="btn btn-danger">!PROXIMAMENTE¡</a>
+                                                        </div>
+                                                    </center>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                            </div>
+                            <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </nav>
+            <footer class="page-footer font-small indigo " style="background-color: #182C61">
+                    <div class="container text-center text-md-left ">
+                        <div class="row">
+                            <div class="col-xl-4 mx-auto">
+                                <ul class="list-unstyled">
+                                    <p></p>
+                                    <h3 style="color: white">Informacion util</h3>
+                                    <li>
+                                        <a href="#!">Contacto & ayuda </a></li>
+                                    <li>
+                                        <a href="#!">Consejos de seguridad </a></li>
+                                    <li>
+                                        <a href="#!">Terminos y condiciones</a></li>
+                                    </ul>
+                            </div>
+                            <div class="col-xl-4 mx-auto">
+                                <ul class="list-unstyled">
+                                    <p></p>
+                                    <h3 style="color: white">Cerca de ti</h3>
+                                    <li>
+                                        <a href="#!">Ciudad ubicacion</a></li>
+                                    <li>
+                                        <a href="#!">Populares </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-4 mx-auto">
+                                <ul class="list-unstyled">
+                                    <p></p>
+                                    <h3 style="color: white">Servicios</h3>
+                                    <li>
+                                        <a href="#!">Registrate</a> </li>
+                                    <li>
+                                        <a href="#!">Todos los anuncios</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Medios de pago</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+</body>
+
+</html>

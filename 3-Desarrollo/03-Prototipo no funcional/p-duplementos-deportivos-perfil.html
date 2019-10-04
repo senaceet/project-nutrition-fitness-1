@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="imagenes\logo.png">
+    <link rel="stylesheet" type="text/scc" href="botones.css">
+    <title>Document</title>
+</head>
+
+<body style="background-color: white">
+    <nav class="navbar navbar-default navbar-expand-xl navbar-light"
+        style="background-color: #182C61; border-color:#182C61">
+        <div class="navbar-header d-flex col">
+            <a href="index_perfi.html"><img src="https://i.ibb.co/tCjQfy1/logo.png" width="100px" height="50px"></a>
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse"
+                class="navbar-toggle navbar-toggler ml-auto">
+                <span class="navbar-toggler-icon"></span>
+                <span
+                    class="https://images.unsplash.com/photo-1551723454-7565a1f5b161?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"></span>
+                <span
+                    class="https://images.unsplash.com/photo-1551723454-7565a1f5b161?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"></span>
+                <span
+                    class="https://images.unsplash.com/photo-1551723454-7565a1f5b161?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60r"></span>
+            </button>
+        </div>
+
+        <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
+            <ul class="nav navbar-nav">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-1" type="search" placeholder="buscar..." aria-label="Search"
+                        name="busquedamodelos" list="listamodelos" size="60" maxlength="40">
+                    <button class="btn btn-outline my-2 my-sm-0 btn-secondary" type="submit"><i class="fa fa-search"
+                            aria-hidden="true" style="color: #182C61"></i></button>
+                </form>
+                <datalist id="listamodelos">
+
+                    <option value="PRO T-F">
+
+                    <option value="amino X  Bns">
+
+                    <option value="Immunocal">
+
+                    <option value="WHEY WLITE">
+
+                </datalist>
+            </ul>
+            <ul class="nav navbar-nav navbar-right ml-auto ">
+                <li class="nav-item dropdown">
+                    <a href="#" style="color: rgb(246, 246, 246)" data-toggle="dropdown"
+                        class="nav-link dropdown-toggle user-action"><img src="imagenes/perfil.jpg" height="50px"
+                            class="avatar" alt="Avatar">
+                        <font color="white" class="ml-2"> Elon musk </font><b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" class="dropdown-item"><i class="fa fa-user-o"></i> Perfil</a></li>
+                        <li><a href="#" class="dropdown-item"><i class="fa fa-sliders"></i> Ajustes</a></li>
+                        <li class="divider dropdown-divider"></li>
+                        <li><a href="index.html" class="dropdown-item"><i class="fa fa-sign-out" aria-hidden="true"></i>
+                                Cerrar secion</a></li>
+                    </ul>
+                </li>
+                <a href="#" class="nav-link ">
+                    <font size="6"><i class="fa fa-bell-o ms-5 mr-3" style="color: white" title="Notificaciones"
+                            data-toggle="tooltip" aria-hidden="true"></i></font>
+                </a>
+                <a href="#" class="nav-link ">
+                    <font size="6"><i class="fa fa-cart-plus ms-5 mr-3" style="color: white" title="Carro de compras"
+                            data-toggle="tooltip" aria-hidden="true"></i></font>
+                </a>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <div class="row no-gutters">
+        <div class="col-md-3">
+            <ul class="list-group list-group-flush p-2 pt-2">
+                <li class="list-group-item" style="background-color:#182C61; color: white"><i class="fa fa-list" aria-hidden="true"></i> Categorias
+                </li>
+                <li class="list-group-item"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    <a href="proteina.html" style="color: black">Proteina</a></li>
+                <li class="list-group-item"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    <a href="creatina.html" style="color: black">Creatina</a></li>
+                <li class="list-group-item"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    <a href="preentrenos.html" style="color: black">Pre-entreno</a></li>
+                <li class="list-group-item"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    <a href="multibitaminicis.html" style="color: black">Multibitaminicos</a></li>
+                
+            </ul>
+        </div>
+        <div class="col-md-9">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://www.ventfitness.com/wp-content/uploads/2018/01/Schedule_Header.jpg" class="d-block w-100" height="450px" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://files.merca20.com/uploads/2018/10/bigstock-Beautiful-Fitness-Woman-Traini-244634053.jpg" class="d-block w-100" height="450px" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://as.com/deporteyvida/imagenes/2018/01/23/portada/1516706069_361093_1516706210_noticia_normal.jpg" class="d-block w-100" height="450px" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+<br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <figure class="card card-product">
+                    <p></p>
+                    <center>
+                        <div class="img-wrap"><img src="https://www.proteinatotal.com/202-large_default/proteina-iron-mass-5-lbs.jpg" width="200" > </div>
+                    </center>
+                    <figcaption class="info-wrap">
+                        <h4 class="title ml-2"> 
+                            PROTEINA IRON MASS 5 LBS</h4>
+                        <p class="desc ml-2">Arnold Iron Mass es un producto subidor de peso </p>
+                        <div class="row no-gutters">
+                            <div class="col-md-5">
+                                <ul class="rating-stars">
+                                    <li style="width:80%" class="stars-active">
+                                        <i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">132 reseñas</div>
+                            <div class="col-md-4">154 pedidos </div>
+                        </div>
+                    </figcaption>
+                    <div class="bottom-wrap">
+                        <a href="carro_compras.html" class="btn btn-sm float-right mr-2" style="background-color: #182C61; color:white">Comprar</a>
+                        <div class="price-wrap h5">
+                            <span class="price-new ml-2">$ 174.900</span>
+                        </div>
+                    </div>
+                    <p></p>
+                </figure>
+            </div>
+            <div class="col-md-4">
+                <figure class="card card-product">
+                    <p></p>
+                    <center>
+                        <div class="img-wrap"><img src="https://www.proteinatotal.com/482-large_default/c4-pre-entreno-60-servic.jpg" height="230px"> </div>
+                    </center>
+                    <figcaption class="info-wrap">
+                        <h4 class="title ml-2">C4 PRE-ENTRENO 30 SERV</h4>
+                        <p class="desc ml-2">C4 ORIGINAL vas a obtener más energía y fuerza de lo que jamás habrías podido imaginar.</p>
+                        <div class="row no-gutters">
+                            <div class="col-md-5">
+                                <ul class="rating-stars">
+                                    <li style="width:80%" class="stars-active">
+                                        <i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">50 reseñas</div>
+                            <div class="col-md-4">15 pedidos </div>
+                        </div>
+                    </figcaption>
+                    <div class="bottom-wrap">
+                        <a href="carro_compras.html" class="btn btn-sm float-right mr-2"  style="background-color: #182C61; color:white">Comprar</a>
+                        <div class="price-wrap h5">
+                            <span class="price-new ml-2">$ 109.900</span> 
+                        </div>
+                    </div>
+                    <p></p>
+                </figure>
+            </div>
+            <div class="col-md-4">
+                <figure class="card card-product">
+                    <p></p>
+                    <center>
+                        <div class="img-wrap"><img src="https://www.proteinatotal.com/155-large_default/animal-pak-44-pack.jpg" height="230px"></div>
+                    </center>
+                    <figcaption class="info-wrap ">
+                        <h4 class="title ml-2">
+                            ANIMAL PAK 44 PACK</h4>
+                        <p class="desc ml-2">Animal Pak va hacer como la columna vertebral de tu programa de entrenamiento</p>
+                        <div class="row no-gutters">
+                            <div class="col-md-5">
+                                <ul class="rating-stars">
+                                    <li style="width:80%" class="stars-active">
+                                        <i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">32 reseñas</div>
+                            <div class="col-md-4">54 pedidos </div>
+                        </div>
+                    </figcaption>
+                    <div class="bottom-wrap">
+                        <a href="carro_compras.html" class="btn btn-sm float-right mr-2"  style="background-color: #182C61; color:white">Comprar</a>
+                        <div class="price-wrap h5">
+                            <span class="price-new ml-2">$ 139.900</span>
+                    </div>
+                    <p></p>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <BR>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <figure class="card card-product">
+                    <p></p>
+                    <center>
+                        <div class="img-wrap"><img src="https://www.proteinatotal.com/328-large_default/proteina-whey-gold.jpg" height="230px"></div>
+                    </center>
+                    <figcaption class="info-wrap">
+                        <h4 class="title ml-2"> 100% WHEY GOLD STANDARD (5LB)</h4>
+                        <p class="desc ml-2">Whey Gold Standard de Optimum Nutrition es un suplemento constructor de músculo</p>
+                        <div class="row no-gutters">
+                            <div class="col-md-5">
+                                <ul class="rating-stars">
+                                    <li style="width:80%" class="stars-active">
+                                        <i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">75 reseñas</div>
+                            <div class="col-md-4">124 pedidos </div>
+                        </div>
+                    </figcaption>
+                    <div class="bottom-wrap">
+                        <a href="carro_compras.html" class="btn btn-sm float-right mr-2"  style="background-color: #182C61; color:white">Comprar</a>
+                        <div class="price-wrap h5">
+                            <span class="price-new ml-2">$ 209.900 </span> <del class="price-old">$ 250.000</del>
+                        </div>
+                    </div>
+                    <p></p>
+                </figure>
+            </div>
+            <div class="col-md-4">
+                <figure class="card card-product">
+                    <p></p>
+                    <center>
+                        <div class="img-wrap"><img src="https://www.proteinatotal.com/268-large_default/nitro-tech-4-lbrs.jpg" height="230px"> </div>
+                    </center>
+                    <figcaption class="info-wrap">
+                        <h4 class="title ml-2">NITROTECH - (4 LBS)</h4>
+                        <p class="desc ml-2">Durante años, NITRO-TECH no ha tenido rival, siendo el complejo de proteína más poderoso desarrollado por la ciencia.</p>
+                        <div class="row no-gutters">
+                            <div class="col-md-5">
+                                <ul class="rating-stars">
+                                    <li style="width:80%" class="stars-active">
+                                        <i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">15 reseñas</div>
+                            <div class="col-md-4">65 pedidos </div>
+                        </div>
+                    </figcaption>
+                    <div class="bottom-wrap">
+                        <a href="carro_compras.html" class="btn btn-sm float-right mr-2"  style="background-color: #182C61; color:white">Comprar</a>
+                        <div class="price-wrap h5">
+                            <span class="price-new ml-2">$ 174.900</span> <del class="price-old">$220.000</del>
+                        </div>
+                    </div>
+                    <p></p>
+                </figure>
+            </div>
+            <div class="col-md-4">
+                <figure class="card card-product">
+                    <p></p>
+                    <center>
+                        <div class="img-wrap"><img src="https://www.proteinatotal.com/455-large_default/creatina-micronizada-60-serv.jpg" height="230px"></div>
+                    </center>
+                    <figcaption class="info-wrap ">
+                        <h4 class="title ml-2">CREATINA MICRONIZADA 60 SERV</h4>
+                        <p class="desc ml-2"> Ayuda a crear masa muscular da volumen y fuerza para entrenamientos fuertes.</p>
+                        <div class="row no-gutters">
+                            <div class="col-md-5">
+                                <ul class="rating-stars">
+                                    <li style="width:80%" class="stars-active">
+                                        <i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">56 reseñas</div>
+                            <div class="col-md-4">96 pedidos </div>
+                        </div>
+                    </figcaption>
+                    <div class="bottom-wrap">
+                        <a href="carro_compras.html" class="btn btn-sm float-right mr-2"  style="background-color: #182C61; color:white">Comprar</a>
+                        <div class="price-wrap h5">
+                            <span class="price-new ml-2">$ 64.900</span>
+                        </div>
+                    </div>
+                    <p></p>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <BR>
+        <nav class="  navbar-expand-xl " style="background-color: #dcdde1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <br>
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="item carousel-item active">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon ml-2"><i class="fa fa-heart-o"></i></span>
+                                                    <center>
+                                                        <div class="img-box">
+                                                            <img src="https://www.proteinatotal.com/473-thickbox_default/proteina-iso-100-3-lbs.jpg" height="155px" width="100px" alt="">
+                                                        </div>
+                                                    </center>
+                                                    <div class="thumb-content">
+                                                        <h4 class=" text-center">ISO-100 3 LBS</h4>
+                                                        <p class="item-price mr-4 text-right"><strike>$ 184.900</strike>
+                                                           <a href="carro_compras.html" class="btn ml-5"
+                                                                style="background-color:#182C61"><i class="fa fa-cart-plus"
+                                                                    aria-hidden="true" style="color: white"></i> </a></p>
+    
+                                                        </a>
+                                                    </div>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon ml-2"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <center><img src="https://www.proteinatotal.com/482-large_default/c4-pre-entreno-60-servic.jpg" height="125px" width="80px"
+                                                                alt=""></center>
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                        <h4 class="text-center">C4 PRE-ENTRENO 30 SERV</h4>
+                                                        <p class="item-price mr-4 text-md-right"><strike>$ 109.900</strike>
+                                                           <a href="carro_compras.html" class="btn ml-5"
+                                                                style="background-color:#182C61"><i class="fa fa-cart-plus"
+                                                                    aria-hidden="true" style="color: white"></i> </a></p>
+                                                    </div>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon ml-2"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <center><img src="https://www.proteinatotal.com/80-large_default/isopure-3-lbs.jpg" height="125px" width="80px"
+                                                                alt=""></center>
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                        <h4 class="text-md-center">PROTEÍNA ISOPURE - (3 LBS)</h4>
+                                                        <p class="item-price mr-4 text-md-right"><strike>$ 189.900</strike>
+                                                            <a href="carro_compras.html" class="btn ml-5"
+                                                                style="background-color:#182C61"><i class="fa fa-cart-plus"
+                                                                    aria-hidden="true" style="color: white"></i> </a></p>
+                                                    </div>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon ml-2"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <center><img src="https://www.proteinatotal.com/428-large_default/aminoacidos-bef-200-tabletas.jpg" height="125px" width="80px"
+                                                                alt=""></center>
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                        <h4 class="text-md-center">AMINOACIDOS BEEF 200 TABLETAS</h4>
+                                                        <p class="item-price mr-4 text-md-right"><strike>$ 59.900</strike>
+                                                            <a href="carro_compras.html" class="btn ml-5"
+                                                                style="background-color:#182C61"><i class="fa fa-cart-plus"
+                                                                    aria-hidden="true" style="color: white"></i> </a></p>
+                                                    </div>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item carousel-item">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon ml-2"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <center> <img src="https://www.proteinatotal.com/217-large_default/prueba.jpg" height="125px" width="80px"
+                                                                alt=""></center>
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                        <h4 class="text-md-center">PLATINUM 100% WHEY 2 LBS</h4>
+                                                        <p class="item-price mr-4 text-md-right "><strike>$ 124.900</strike>
+                                                            <span>$269.00</span><a href="carro_compras.html" class="btn ml-5"
+                                                                style="background-color:#182C61"><i class="fa fa-cart-plus"
+                                                                    aria-hidden="true" style="color: white"></i> </a></p>
+                                                    </div>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon ml-2"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <center><img src="https://www.proteinatotal.com/425-large_default/bullnox-preentreno-.jpg" height="155px" width="80px"
+                                                                alt=""></center>
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                        <h4 class="text-md-center">B-NOX PREENTRENO</h4>
+                                                        <p class="item-price mr-4 text-md-right"><strike>$ 109.900</strike>
+                                                            <span>$125.000</span><a href="carro_compras.html" class="btn ml-5"
+                                                                style="background-color:#182C61"><i class="fa fa-cart-plus"
+                                                                    aria-hidden="true" style="color: white"></i> </a></p>
+                                                    </div>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon ml-2"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <center> <img src="https://www.proteinatotal.com/477-large_default/creatina-met-rx-80-serv.jpg" height="125px" width="80px"
+                                                                alt=""></center>
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                        <h4 class="text-md-center">CREATINA MET RX (80 SERV)</h4>
+                                                        <p class="item-price mr-4 text-md-right"><strike>$ 74.900</strike>
+                                                            <a href="carro_compras.html" class="btn ml-5"
+                                                                style="background-color:#182C61"><i class="fa fa-cart-plus"
+                                                                    aria-hidden="true" style="color: white"></i> </a></p>
+                                                    </div>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon ml-2"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <center><img src="https://www.proteinatotal.com/360-large_default/proteina-super-mass-gainer-12-lbs.jpg" height="125px" width="80px"
+                                                                alt=""></center>
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                        <h4 class="text-center">PROTEINA SUPER MASS GAINER 6 LBS</h4>
+                                                        <p class="item-price mr-4 text-md-right"><strike>$ 129.900</strike>
+                                                            <a href="carro_compras.html" class="btn ml-5"
+                                                                style="background-color:#182C61"><i class="fa fa-cart-plus"
+                                                                    aria-hidden="true" style="color: white"></i> </a></p>
+                                                    </div>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item carousel-item">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon ml-2"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <center><img src="https://www.proteinatotal.com/282-large_default/quemador-burn-fitmiss.jpg" height="125px" width="80px"
+                                                                alt=""></center>
+                                                    </div>
+                                                    <center>
+                                                        <div class="thumb-content">
+                                                            <h4>QUEMADOR BURN FITMISS</h4>
+                                                            <p class="item-price mr-4 text-md-right">
+                                                                <strike>$599.00</strike><span>$ 94.900</span><a href="carro_compras.html"
+                                                                    class="btn ml-5" style="background-color:#182C61"><i
+                                                                        class="fa fa-cart-plus" aria-hidden="true"
+                                                                        style="color: white"></i> </a></p>
+                                                            </a>
+                                                        </div>
+                                                    </center>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon"><i class="fa fa-heart-o ml-2"></i></span>
+                                                    <div class="img-box">
+                                                        <center><img src="https://www.proteinatotal.com/274-large_default/proteina-iso-100-3-lbs.jpg" height="155px" width="80px"
+                                                                alt=""></center>
+                                                    </div>
+                                                    <center>
+                                                        <div class="thumb-content">
+                                                            <h4>ISO-100 3 LBS</h4>
+                                                            <p class="item-price"><strike>$ 184.900</strike>
+                                                               <a href="carro_compras.html" class="btn ml-5"
+                                                                    style="background-color:#182C61"><i
+                                                                        class="fa fa-cart-plus" aria-hidden="true"
+                                                                        style="color: white"></i> </a></p>
+                                                            </a>
+                                                        </div>
+                                                    </center>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon ml-2"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <center><img src="https://www.proteinatotal.com/384-large_default/amino1-mp-32-serv.jpg" height="155px" width="80px"
+                                                                alt=""></center>
+                                                    </div>
+                                                    <center>
+                                                        <div class="thumb-content">
+                                                            <h6>AMINO1 MP 32 SERV</h6>
+                                                            <p></p>
+                                                            <a href="carro_compras.html" class="btn btn-danger">!PROXIMAMENTE¡</a>
+                                                        </div>
+                                                    </center>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon ml-2"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <center><img src="https://www.proteinatotal.com/512-large_default/oxa-var-gold-60-caps.jpg" height="125px" width="80px"
+                                                                alt=""></center>
+                                                    </div>
+                                                    <center>
+                                                        <div class="thumb-content">
+                                                            <h4>OXAVARGOLD 20 MG OXANDROLONA</h4>
+                                                            <a href="carro_compras.html" class="btn btn-danger">!PROXIMAMENTE¡</a>
+                                                        </div>
+                                                    </center>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                            </div>
+                            <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </nav>
+    
+        <footer class="page-footer font-small indigo " style="background-color: #182C61">
+            <div class="container text-center text-md-left ">
+                <div class="row">
+                    <div class="col-xl-4 mx-auto">
+                        <ul class="list-unstyled">
+                            <p></p>
+                            <h3 style="color: white">Informacion util</h3>
+                            <li>
+                                <a href="#!">Contacto & ayuda </a></li>
+                            <li>
+                                <a href="#!">Consejos de seguridad </a></li>
+                            <li>
+                                <a href="#!">Terminos y condiciones</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-4 mx-auto">
+                        <ul class="list-unstyled">
+                            <p></p>
+                            <h3 style="color: white">Cerca de ti</h3>
+                            <li>
+                                <a href="#!">Ciudad ubicacion</a></li>
+                            <li>
+                                <a href="#!">Populares </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-4 mx-auto">
+                        <ul class="list-unstyled">
+                            <p></p>
+                            <h3 style="color: white">Servicios</h3>
+                            <li>
+                                <a href="#!">Registrate</a> </li>
+                            <li>
+                                <a href="#!">Todos los anuncios</a>
+                            </li>
+                            <li>
+                                <a href="#!">Medios de pago</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+</body>
+
+</html>
